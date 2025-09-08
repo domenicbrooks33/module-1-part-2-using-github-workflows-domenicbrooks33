@@ -1,3 +1,6 @@
+## ATMS 523 Assignment 1
+## Created by Domenic Brooks
+
 def addition():
         """Return the sum of 2 float values inputted by the user"""        
         print('\nReturn the sum of 2 float values.')
