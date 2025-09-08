@@ -1,0 +1,18 @@
+def addition():
+        """Return the sum of 2 float values inputted by the user"""
+
+        num1 = input('Enter value 1 (must be float value): ')
+        num2 = input('Enter value 2 (must be float value): ')
+        try:
+            num1 = float(num1)
+            num2 = float(num2)
+            print(f'Calculating: {num1:.2f} + {num2:.2f}')
+            sum = num1 + num2
+
+        except ValueError: 
+            print('Invalid data format, re-try with float')
+
+        return sum
+
+x = addition()
+print('Sum = ', x)
